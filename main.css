@@ -1,0 +1,165 @@
+body{
+    background-color: rgb(232, 232, 232);
+}
+
+.head{
+    background-color: #268a37a3;
+    width: 100%;
+    height: 100px;
+    display: flex;
+}
+
+.head img{
+    width: 100px;
+    height: 100px;
+    margin-left: 50px;
+}
+
+.head h2{
+    width: 550px;
+    color: white;
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight:bold;
+        font-size: 35px;
+        margin-left: 30px;
+}
+
+main{
+    height: 650px;
+    width: 100%;
+    display: flex;
+}
+
+.layers_menu{
+    width: 25%;
+    height: 600px;
+    background-color: rgb(255, 255, 255);
+    margin: 1%;
+    border-radius: 20px;
+}
+
+.map_block{
+    width: 70%;
+    height: 600px;
+    margin: 1%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+}
+
+.map_block #map{
+    width: 99.5%;
+    height: 600px;
+    border-radius: 20px;
+}
+
+.layers_menu h2{
+    color: #268a37a3;
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight:lighter;
+        font-size: 25px;
+        margin-top:5%;
+        margin-left: 5%;
+        margin-bottom: 3%;
+}
+
+.layers_menu .line{
+    width: auto;
+    background-color: #268a37a3;
+    height: 2px;
+    margin: 1%;
+}
+
+.layers_menu .layer{
+    display: flex;
+    margin-left: 5%;
+}
+
+.layers_menu .layer p{
+    color: #268a37a3;
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight:lighter;
+        font-size: 15px;
+}
+
+.layers_menu .layer #check_road{
+    color: #268a37a3;
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight:lighter;
+        font-size: 15px;
+    width: 95%;
+    background-color: white;
+    border-radius: 20px;
+    text-align: left;
+    border-color: red;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border-width: 3px;
+}
+
+.layers_menu .layer #check_borders{
+    color: #268a37a3;
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight:lighter;
+        font-size: 15px;
+    width: 95%;
+    background-color: white;
+    border-radius: 20px;
+    text-align: left;
+    border-color: red;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border-width: 3px;
+}
+
+.layers_menu .layer #check_locality{
+    color: #268a37a3;
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight:lighter;
+        font-size: 15px;
+    width: 95%;
+    background-color: white;
+    border-radius: 20px;
+    text-align: left;
+    border-color: red;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border-width: 3px;
+}
+
+.layers_menu .layer #check_kfx{
+    color: #268a37a3;
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight:lighter;
+        font-size: 15px;
+    width: 95%;
+    background-color: white;
+    border-radius: 20px;
+    text-align: left;
+    border-color: red;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border-width: 3px;
+}
+
+.layers_menu .layer #check_kfx:hover{
+    background-color: rgb(246, 245, 245);
+}
+
+.layers_menu .layer #check_locality:hover{
+    background-color: rgb(246, 245, 245);
+}
+
+.layers_menu .layer #check_borders:hover{
+    background-color: rgb(246, 245, 245);
+}
+
+.layers_menu .layer #check_road:hover{
+    background-color: rgb(246, 245, 245);
+}

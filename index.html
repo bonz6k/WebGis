@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+            <div class="head">
+                <img src="images/logo.png" alt="">
+                <h2>РГАУ-МСХА им. К.А. Тимирязева</h2>
+            </div>
+    </header>
+    <main>
+        <div class="layers_menu">
+            <script src="js.js"></script>
+            <h2>Слои:</h2>
+            <hr class="line">
+
+            <div class="layer">
+                <button id="check_kfx">КФХ</button>
+            </div>
+
+            <div class="layer">
+                <button id="check_locality">Населенные пункты</button>
+            </div>
+
+            <div class="layer">
+                <button id="check_borders">Границы районов</button>
+            </div>
+
+            <div class="layer">
+                <button id="check_road">Дороги</button>
+            </div>
+            <script> conditionals(); </script>
+        </div>
+        <div class="map_block">
+            <script src="js.js"></script>
+            <iframe id="map" src="https://timgislab.nextgis.com/resource/64/display/tiny?base=basemap_0&lon=131.0065&lat=61.5898&angle=0&zoom=8&styles=&linkMainMap=true&events=false"></iframe>
+            <script> LayersChoice(); </script>
+        </div>
+        
+    </main>
+</body>
+</html>
